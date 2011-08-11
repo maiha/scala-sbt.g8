@@ -4,7 +4,7 @@ import org.specs2.matcher.DataTables
 import scala.collection.immutable.HashMap
 
 class MainSpec extends Specification with DataTables {
-  val specs = HashMap[String,String](
+  val specs = HashMap[Int,Int](
     1 -> 2,
     2 -> 3
   )
